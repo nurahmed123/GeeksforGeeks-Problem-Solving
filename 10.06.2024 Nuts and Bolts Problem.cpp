@@ -22,7 +22,7 @@ class Solution {
         arr[high]=temp2;
         return i;
     }
-  
+
     void quick(char *nuts, char *bolts, int low,int high){
         if(low<high){
             int pivot=partition(nuts,low,high,bolts[high]);
